@@ -1,0 +1,174 @@
+/*Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family:"roboto", sans-serif;
+
+}
+.container{
+    width: 100%; ;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background: #FFE4E1;
+    padding: 10px;
+    text-align: center;
+    
+}
+header img{
+    padding: 1px;
+}
+header h1 {
+    font-size: 40px; }
+nav{
+    height: 35px;
+    background: #FA8072;
+    margin-bottom: 5px;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding:0 15px;
+}
+nav .menu ul li a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+nav .search{
+    line-height: 35px;
+    float: right ;
+    margin-right: 25px;}
+nav .menu>a{
+    color: blue;
+    text-decoration: none;}
+nav .menu>a:visited{
+    color: green;
+}
+nav .menu>a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.menu li:hover{
+    display: block;
+    background-color:#B22222;
+    
+}
+
+.i{
+    width:1500px ;
+    height:600px;
+}
+/* Hình ảnh bài viết*/
+.images {
+    width: 50%;
+    height: 200px; }
+    /* Thêm định dạng thẻ cho bài viết */
+div .card-news :hover{
+    transform: scale(0.6);}
+.card-news {
+    width: 27%;
+    background-color:#FDF5E6;
+    padding: 20px;
+    margin: 20px;
+    float: left; 
+text-align: center;}
+.row:after {
+    content: "";
+    display: table;
+    clear: both; }
+h3{
+    color: saddlebrown;}
+h1{
+    color: #B22222;}
+h2{
+    color: white ;
+    text-shadow: 0 0 5px #FA8072;
+    font-size: 200%;}
+
+.leftcolumn {
+        float: left;
+        width: 50%; }
+        /* Cột phải */
+.rightcolumn {
+        float: right;
+        width: 60%;
+        background-color: white;}
+/* Thêm định dạng thẻ nội dung thêm */
+.card {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;}
+.asm{
+    text-align: center;}
+
+/* Footer */
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: #FA8072;
+    margin-top: 10px; }
+.rightcolumn h2{    
+        background: #FFE4C4;
+        direction: right; 
+    }
+.row div h2{
+    background: #FFE4C4;
+    direction: right; 
+}
+.card iframe{
+    width: 350px;
+    height: 250px;
+}
+
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: #B22222;
+    color: white;
+}
+.menu>ul>li{
+    display: inline-block;
+}
+
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: #B22222;
+    text-align: center;
+}
+#m1{
+   width: 2%;
+   height: 5%;
+}

@@ -1,0 +1,30 @@
+
+body{
+    background-color:beige;
+}
+/* Cột trái */
+.cottrai {
+    float: left;
+    width: 70%; 
+    padding: 10px;
+
+}
+.cottrai img{
+    width: 400px;
+    height: 400px;
+}
+    /* Cột phải */
+.cotphai {
+    float: left;
+    width: 25%;
+    background-color: #DCDCDC;
+    text-align: center;
+    padding: 10px;
+    
+}
+.cottrai{
+    background-color: #FFEFD5;
+}
+.t1 :hover{
+    transform: scale(1.2);
+}

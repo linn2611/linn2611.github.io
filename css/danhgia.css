@@ -1,0 +1,34 @@
+.form-group{
+    color:#B22222 ;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.form-control{
+    border:2px solid black ;
+    
+}
+.b92{
+    border: 1px solid black;
+   width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 0 0 5px black;
+}
+
+.form-button{
+    padding: 8px 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: orangered;
+    box-shadow: inset 0 0 20px blue;
+}
+.form-button:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.form-button:disabled{
+    color: darkgrey;
+    box-shadow: inset 0 0 20px gray;
+}

@@ -1,0 +1,60 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: rgb(196, 196, 196);
+    padding: 10px;
+   
+}
+.page{
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 5px black;
+    background-color: white;
+    padding: 5px;
+}
+
+.hang1{
+    width: 18%;
+    float: left;
+    margin: 15px;
+
+}
+.hang2{
+    width: 78%;
+    float: right;
+    text-align: justify;
+}
+.hang img{
+    width: 100%;
+    line-height: 20px;
+}
+.hang::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.hang2>a{
+    text-decoration: none;
+    font-size: 30px;
+    font-variant: small-caps;
+    color: rgb(240, 68, 96);
+}
+.hang2>a:hover{
+    color: green;
+}
+.ado{
+    border: 2px solid black;
+    float: right;
+}
+h4{
+    color: #FF9900;
+}
+.hang1:hover{
+transform: scale(1.2);
+}
